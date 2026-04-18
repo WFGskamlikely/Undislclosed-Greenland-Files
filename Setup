@@ -1,0 +1,36 @@
+^-> Tor installed tunneling IP, 
+Server Is in Dublin for fastest milisencond 
+apt update && apt install python3-venv -y
+Installed aider / ran oom / on 512m small ran switcharoo -> Set up swap file on shared server no cost for 2G
+
+
+[21:50:33] Starting oil market feed with 2 markets
+[21:50:33] Connecting to wss://ws-subscriptions-clob.polymarket.com/ws/market
+[21:50:33] Subscribing to 2 asset(s)
+[21:50:33] Subscription sent, waiting for data...
+[21:50:33] [INFO] Received list with 2 items - likely initial market data
+[21:50:33] [BOOK] asset=85014971... | best_bid={'price': '0.53', 'size': '9790.86'} | best_ask={'price': '0.99', 'size': '533469.17'} | ts=1776549027858
+/root/ai_curriculum/polymarket_ws.py:44: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "received_at": datetime.utcnow().isoformat(),
+[21:50:33] [BOOK] asset=25273124... | best_bid={'price': '0.46', 'size': '3060.54'} | best_ask={'price': '0.99', 'size': '1046038.77'} | ts=1776549027858
+[21:50:34] [NEW_MARKET] id=2016807 | question=Game 3: Any Player Rampage? | ts=1776549034207
+[21:50:40] [NEW_MARKET] id=2017155 | question=Bitcoin above 74,000 on April 18, 7PM ET? | ts=1776549040159
+[21:50:43] [PING] Sent heartbeat
+[21:50:43] [PONG] Server heartbeat received
+[21:50:49] [NEW_MARKET] id=2016822 | question=Game 2: Any Player Rampage? | ts=1776549049462
+[21:50:53] [PING] Sent heartbeat
+[21:50:53] [PONG] Server heartbeat received
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=25273124... | side=BUY | price=0.14 | size=214.29 | best_bid=0.46 | best_ask=0.47 | ts=1776549060329
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=85014971... | side=SELL | price=0.86 | size=214.29 | best_bid=0.53 | best_ask=0.54 | ts=1776549060329
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=25273124... | side=BUY | price=0.22 | size=27.27 | best_bid=0.46 | best_ask=0.47 | ts=1776549060329
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=85014971... | side=SELL | price=0.78 | size=27.27 | best_bid=0.53 | best_ask=0.54 | ts=1776549060329
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=25273124... | side=BUY | price=0.03 | size=2076.73 | best_bid=0.46 | best_ask=0.47 | ts=1776549060329
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=85014971... | side=SELL | price=0.97 | size=2076.73 | best_bid=0.53 | best_ask=0.54 | ts=1776549060329
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=25273124... | side=BUY | price=0.02 | size=7142.33 | best_bid=0.46 | best_ask=0.47 | ts=1776549060345
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=85014971... | side=SELL | price=0.98 | size=7142.33 | best_bid=0.53 | best_ask=0.54 | ts=1776549060345
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=25273124... | side=BUY | price=0.15 | size=800 | best_bid=0.46 | best_ask=0.47 | ts=1776549060348
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=85014971... | side=SELL | price=0.85 | size=800 | best_bid=0.53 | best_ask=0.54 | ts=1776549060348
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=25273124... | side=BUY | price=0.23 | size=478 | best_bid=0.46 | best_ask=0.47 | ts=1776549060350
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=85014971... | side=SELL | price=0.77 | size=478 | best_bid=0.53 | best_ask=0.54 | ts=1776549060350
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=25273124... | side=BUY | price=0.23 | size=782 | best_bid=0.46 | best_ask=0.47 | ts=1776549060351
+[21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=85014971... | side=SELL | price=0.77 | size=782 | best_bid=0.53 | best_ask=0.54 | ts=1776549060351
