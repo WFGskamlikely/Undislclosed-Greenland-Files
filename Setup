@@ -2,7 +2,7 @@
 Server Is in Dublin for fastest milisencond 
 apt update && apt install python3-venv -y
 Installed aider / ran oom / on 512m small ran switcharoo -> Set up swap file on shared server no cost for 2G
-
+Open router proxie -> to the ai call no subscription to deepseek,claude or any top llm. Decoupled ai proccess and resoning 
 
 [21:50:33] Starting oil market feed with 2 markets
 [21:50:33] Connecting to wss://ws-subscriptions-clob.polymarket.com/ws/market
@@ -34,3 +34,5 @@ Installed aider / ran oom / on 512m small ran switcharoo -> Set up swap file on 
 [21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=85014971... | side=SELL | price=0.77 | size=478 | best_bid=0.53 | best_ask=0.54 | ts=1776549060350
 [21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=25273124... | side=BUY | price=0.23 | size=782 | best_bid=0.46 | best_ask=0.47 | ts=1776549060351
 [21:51:00] [PRICE_CHANGE] market=0x9c1a95... | asset=85014971... | side=SELL | price=0.77 | size=782 | best_bid=0.53 | best_ask=0.54 | ts=1776549060351
+
+Final result. 
