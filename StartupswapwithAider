@@ -1,0 +1,33 @@
+cat <<'EOF' > setup_and_start.sh
+#!/bin/bash
+##verify chmod perms
+echo "--- Checking Server Health (RAM/Swap) ---"
+# Check if swap is already enabled
+if [ $(swapon --show | wc -l) -eq 0 ]; then
+    echo "No swap found. Creating 1GB swap file to prevent memory crashes..."
+    fallocate -l 1G /swapfile
+    chmod 600 /swapfile
+    mkswap /swapfile
+    swapon /swapfile
+    echo '/swapfile none swap sw 0 0' | tee -a /etc/fstab
+    echo "Swap enabled!"
+else
+    echo "Swap is already active."
+fi
+
+echo "--- Ensuring Dependencies are Installed ---"
+# Install build tools needed for tree-sitter compilation
+apt update && apt install -y build-essential python3-dev pipx python3-full
+
+# Ensure Aider is installed and in path
+pipx install aider-chat --force
+##Redacted##
+
+echo "--- Launching Aider for Polymarket Bot ---"
+# Use your existing key and point to your project files
+export OPENROUTER_API_KEY="$OPENROUTER_KEY"
+
+cd ~/ai_curriculum
+EOF
+
+chmod +x setup_and_start.sh
