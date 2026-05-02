@@ -1,0 +1,8 @@
+curl -s http://127.0.0.1:7860/sdapi/v1/txt2img \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "prompt": "a cinematic shot of a robot walking through neon rain, ultra detailed",
+    "steps": 25,
+    "width": 1024,
+    "height": 1024
+  }' | jq -r '.images[0]' | base64 -d > out.png
